@@ -1,0 +1,608 @@
+﻿<!doctype html>
+<html>
+  <head>
+    <title>蚂蚁窝</title>
+	<link href="style/bootstrap.min.css" rel="stylesheet">
+    <script src="style/js/jquery.js"></script>
+    <script src="style/js/bootstrap.min.js"></script>
+	<link href="mudi.css" rel="stylesheet">
+	
+	<script>
+	  $(document).ready(function(){
+	    $("#my-1").carousel({
+		  interval:2000
+		});
+	  })
+	</script>
+  </head>
+  <body>
+       <!--导航开始-->
+		<nav class="navbar navbar-default navbar-fixed-top">
+		    <div class="nav_a container">
+			    <div class="navbar-header">
+				    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mycoll">
+					    <span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+			        <a class="navbar-brand">
+				       <img class="logo img-responsive" src="ima/logo.jpg"/>
+				    </a>
+			    </div>
+				<div class="collapse navbar-collapse" id="mycoll">
+			        <ul class="nav navbar-nav">
+	                    <li><a href="index.html">首页</a></li>
+                        <li><a href="mudi.html">目的地</a></li> 
+                        <li><a href="cs.html">旅游攻略</a></li> 
+                        <li><a href="lv_content.html">自由行商城</a></li> 
+						<li><a href="jiudian.html">酒店</a></li> 
+						<li><a href="content.html">社区</a></li>
+						<li><a href="">APP</a></li> 
+		            </ul>
+					<ul>
+					   <div class="nav_right">
+						  <img src="ima/nav_a.jpg" class="img-responsive"/>
+				          <img src="ima/nav_b.jpg" class="img-responsive"/>
+				          <img src="ima/nav_c.jpg" class="img-responsive"/>
+						  <a href="">登录</a> | <a href="">注册</a>
+					   </div>
+					</ul>
+				</div>
+			</div>
+		</nav>
+   <!--导航结束-->
+   
+   <!--banner开始-->
+    <div class="container-fulid">
+	   <img src="ima/b.jpg" class="img-responsive" style="width:100%;"/>
+	      <div class="carousel-caption">
+			 <div class="num">
+			    <h3 class="english">Don't fear the unknown</h3>
+				  <div class="row">
+				     <div class="col-xs-9">
+		                <input type="text" class="form-control" placeholder="人数未定"/>
+		             </div>
+	                 <div class="col-xs-2">
+		                <button class="tijiao"></button>
+		             </div>
+				  </div>
+				  <ul class="nav navbar-nav">
+	                    <li><a href="">台湾</a></li>
+                        <li><a href="">西安</a></li> 
+                        <li><a href="">广州</a></li> 
+                        <li><a href="">济州岛</a></li> 
+						<li><a href="">巴厘岛</a></li>
+		            </ul>
+			 </div>
+			 <div class="right">
+			    <h2><strong>2017年色达法会攻略,信仰与山川同在</strong></h2>
+				<p class="txt">色达一年举办4次法会,而2017年7月24日到7月31日的普贤云供法会是今年的第三次。这段时期色达的平均温度在10度
+				   左右,天气晴朗,非常适合游客前往体验这一佛教法会的盛大景象。</p>
+			    <h4><a href="">阅读全文</a></h4>
+			 </div>
+			 <div class="number">
+			    <span>28</span>
+				<button class="feng"><small>分享</small></button>
+			 </div>
+		  </div>
+	</div>
+   <!--banner结束-->
+   
+   <!--内容开始-->
+   <div class="container-fulid content">
+      <h2 class="str"><strong>热门目的地</strong></h2>
+	  <ul id="myTab" class="nav nav-tabs n">
+	     <li class="active"><a href="#home" data-toggle="tab" >国内</a></li>
+         <li class=""><a href="#as" data-toggle="tab">港澳台</a></li> 
+         <li><a href="#ad" data-toggle="tab">日韩 </a></li> 
+         <li><a href="#af" data-toggle="tab">东南亚</a></li> 
+		 <li><a href="" data-toggle="tab">南亚 西亚</a></li>
+		 <li><a href="" data-toggle="tab">欧洲 美洲</a></li>
+		 <li><a href="" data-toggle="tab">澳洲 非洲</a></li>
+	  </ul>
+	  <div id="myTabContent" class="tab-content container">
+		  <div class="tab-pane fade in active" id="home">
+			  <div class="row tab">
+			     <div class="col-xs-6">
+				    <span>直辖市</span> 
+					<small class="beijing">北京 上海 重庆 天津</small><hr/>
+				 </div>
+				 <div class="col-xs-6">
+				    <span>西藏 贵州</span> 
+					<small class="beijing">拉萨 林芝 阿里 黔东南 荔波 镇远 西江 黄果树</small><hr/>
+				 </div>
+			  </div>
+			  <div class="row ">
+			     <div class="col-xs-6">
+				    <span>云南</span> 
+					<small class="beijing">丽江 大理 昆明 香格里拉 泸沽湖 双廊 西双版纳 束河 腾冲 雨崩</small><hr/>
+				 </div>
+				 <div class="col-xs-6">
+				    <span>西北</span> 
+					<small class="beijing">西安 青海湖 西宁 祁连 敦煌 兰州 甘南 张掖 嘉峪关 新疆</small><hr/>
+				 </div>
+			  </div>
+			  <div class="row ">
+			     <div class="col-xs-6">
+				    <span>浙江</span> 
+					<small class="beijing">杭州 乌镇 西塘 千岛湖 普陀山 东极岛 南浔</small><hr/>
+				 </div>
+				 <div class="col-xs-6">
+				    <span>湖南 湖北</span> 
+					<small class="beijing">张家界 凤凰 郴州 武汉 恩施 神农架</small><hr/>
+				 </div>
+			  </div>
+			  <div class="row ">
+			     <div class="col-xs-6">
+				    <span>海南 福建</span> 
+					<small class="beijing">三亚 厦门 鼓浪屿 武夷山 霞浦 泉州</small><hr/>
+				 </div>
+				 <div class="col-xs-6">
+				    <span>安徽 江西</span> 
+					<small class="beijing">黄山 宏村 婺源 景德镇 庐山 三清山 南昌</small><hr/>
+				 </div>
+			  </div>
+			  <div class="row ">
+			     <div class="col-xs-6">
+				    <span>江苏</span> 
+					<small class="beijing">南京 苏州 无锡 扬州 周庄 常州 连云港 同里</small><hr/>
+				 </div>
+				 <div class="col-xs-6">
+				    <span>河北 河南</span> 
+					<small class="beijing">北戴河 秦皇岛 承德 张北 少林寺 洛阳 龙门石窟</small><hr/>
+				 </div>
+			  </div>
+			  <div class="row ">
+			     <div class="col-xs-6">
+				    <span>广东 广西</span> 
+					<small class="beijing">广州 深圳 珠海 汕头 桂林 阳朔 北海 黄姚古镇 涠洲岛 龙脊梯田</small><hr/>
+				 </div>
+				 <div class="col-xs-6">
+				    <span>内蒙古 东北</span> 
+					<small class="beijing">呼和浩特 阿尔山 海拉尔 哈尔滨 漠河 雪乡 大连 丹东 盘锦</small><hr/>
+				 </div>
+			  </div>
+	      </div>
+		  <div class="tab-pane fade" id="as">
+			  <div class="row tab">
+			     <div class="col-xs-6">
+				    <span>台湾</span> 
+					<small class="beijing">台北 垦丁 花莲 高雄 台中 九份 南投 阿里山</small>
+				 </div>
+				 <div class="col-xs-6">
+				    <span>香港 澳门</span>
+				 </div>
+			  </div>
+		  </div>
+		  <div class="tab-pane fade" id="ad">
+			  <div class="row tab">
+			     <div class="col-xs-6">
+				    <span>日本</span> 
+					<small class="beijing">东京 大阪 京都 冲绳 北海道 籍根 奈良 名古屋 福冈 神户 那霸 函馆 小樽 镰仓</small>
+				 </div>
+				 <div class="col-xs-6">
+				    <span>韩国</span>
+					<small class="beijing">济州岛 首尔 釜山</small>
+				 </div>
+			  </div>
+		  </div>
+		  <div class="tab-pane fade" id="af">
+			  <div class="row tab">
+			     <div class="col-xs-6">
+				    <span>泰国</span> 
+					<small class="beijing">普吉岛 清迈 曼谷 苏梅岛 甲米 芭提雅 象岛</small><hr/>
+				 </div>
+				 <div class="col-xs-6">
+				    <span>越南</span>
+					<small class="beijing">芽庄 岘港 美奈 大叻 河内 胡志明市</small><hr/>
+				 </div>
+			  </div>
+			  <div class="row">
+			     <div class="col-xs-6">
+				    <span>新加坡 印尼</span> 
+					<small class="beijing">新加坡 巴厘岛 民丹岛</small><hr/>
+				 </div>
+				 <div class="col-xs-6">
+				    <span>柬埔寨 缅甸</span>
+					<small class="beijing">吴哥窟 暹粒 金边 仰光 蒲甘 曼德勒</small><hr/>
+				 </div>
+			  </div>
+			  <div class="row">
+			     <div class="col-xs-6">
+				    <span>马来西亚</span> 
+					<small class="beijing">沙巴 仙本那 吉隆坡 兰卡威</small><hr/>
+				 </div>
+				 <div class="col-xs-6">
+				    <span>菲律宾 文莱</span>
+					<small class="beijing">长滩岛 杜马盖地 薄荷岛 宿雾 文莱</small><hr/>
+				 </div>
+			  </div>
+		  </div>
+			  
+	  </div>
+	  <img src="ima/ban.jpg" class="ban_a img-responsive"/><hr/>
+	  
+	  <div class="dangji">
+	     <h2 class="str"><strong>当季推荐</strong></h2>
+		   <ul id="myTab" class="nav nav-tabs m">
+	          <li class="active"><a href="#ho" data-toggle="tab" >1月</a></li>
+              <li class=""><a href="#hs" data-toggle="tab">2月</a></li> 
+              <li><a href="#hd" data-toggle="tab">3月 </a></li> 
+              <li><a href="" data-toggle="tab">4月</a></li> 
+		      <li><a href="" data-toggle="tab">5月</a></li>
+		      <li><a href="" data-toggle="tab">6月</a></li>
+		      <li><a href="" data-toggle="tab">7月</a></li>
+			  <li><a href="" data-toggle="tab" >8月</a></li>
+              <li><a href="" data-toggle="tab">9月</a></li> 
+              <li><a href="" data-toggle="tab">10月 </a></li> 
+              <li><a href="" data-toggle="tab">11月</a></li> 
+		      <li><a href="" data-toggle="tab">12月</a></li>
+	      </ul>
+		  <div id="myTabContent" class="tab-content container">
+		     <div class="tab-pane fade in active" id="ho">
+			    <div class="row">
+				   <div class="col-xs-4">
+				      <img src="ima/imb.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-4">
+				      <img src="ima/ima.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-4">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				</div>
+				<div class="row ta">
+				   <div class="col-xs-3">
+				      <img src="ima/imn.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imu.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imaf.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imad.jpg" class="img-responsive"/>
+				   </div>
+				</div>
+		     </div>
+			 <div class="tab-pane fade in" id="hs">
+			    <div class="row">
+				   <div class="col-xs-4">
+				      <img src="ima/imb.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-4">
+				      <img src="ima/ima.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-4">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				</div>
+				<div class="row ta">
+				   <div class="col-xs-3">
+				      <img src="ima/imn.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imu.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imaf.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imad.jpg" class="img-responsive"/>
+				   </div>
+				</div>
+		     </div>
+			 <div class="tab-pane fade in " id="hd">
+			    <div class="row">
+				   <div class="col-xs-4">
+				      <img src="ima/imb.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-4">
+				      <img src="ima/ima.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-4">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				</div>
+				<div class="row ta">
+				   <div class="col-xs-3">
+				      <img src="ima/imn.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imu.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imaf.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imad.jpg" class="img-responsive"/>
+				   </div>
+				</div>
+		     </div>
+		  </div><hr/>
+	  </div>
+	  
+	  <div class="zhuti">
+	     <h2 class="str"><strong>主题推荐</strong></h2>
+		   <ul id="myTab" class="nav nav-tabs b">
+	          <li class="active"><a href="#ha" data-toggle="tab" >全年适宜</a></li>
+              <li class=""><a href="#hf" data-toggle="tab">季节</a></li> 
+              <li><a href="#hh" data-toggle="tab">出行方式 </a></li> 
+              <li><a href="" data-toggle="tab">节假日</a></li> 
+	      </ul>
+		  <div id="myTabContent" class="tab-content container">
+		     <div class="tab-pane fade in " id="hf">
+			    <div class="row">
+				   <div class="col-xs-3">
+				      <img src="ima/imb.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/ima.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				</div>
+				<div class="row ta">
+				   <div class="col-xs-3">
+				      <img src="ima/imb.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/ima.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				</div>
+				<div class="row ta">
+				   <div class="col-xs-3">
+				      <img src="ima/imb.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/ima.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				</div>
+			 </div>
+			 <div class="tab-pane fade in" id="ha">
+			    <div class="row">
+				   <div class="col-xs-3">
+				      <img src="ima/imb.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/ima.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				</div>
+				<div class="row ta">
+				   <div class="col-xs-3">
+				      <img src="ima/imb.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/ima.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				</div>
+				<div class="row ta">
+				   <div class="col-xs-3">
+				      <img src="ima/imb.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/ima.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				</div>
+			 </div>
+			 <div class="tab-pane fade in active" id="hh">
+			    <div class="row">
+				   <div class="col-xs-3">
+				      <img src="ima/imb.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/ima.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				</div>
+				<div class="row ta">
+				   <div class="col-xs-3">
+				      <img src="ima/imb.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/ima.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				</div>
+				<div class="row ta">
+				   <div class="col-xs-3">
+				      <img src="ima/imb.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/ima.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				   <div class="col-xs-3">
+				      <img src="ima/imc.jpg" class="img-responsive"/>
+				   </div>
+				</div>
+			 </div>
+		  </div>
+	  </div><hr/>
+	  
+	  <div class="container">
+	     <div class="quanqiu">
+	        <h1><strong>全球目的地</strong></h1><small>(按拼音首字母排序)</small>
+	         <h3>亚洲</h3>
+			 <div class="row">
+			    <div class="col-xs-4">
+			 <ul class="af">
+			    <li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+			 </ul>
+			 </div>
+			 <div class="col-xs-4">
+			 <ul class="af">
+			    <li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+			 </ul>
+			 </div>
+			 <div class="col-xs-4">
+			 <ul class="af">
+			    <li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+				<li>阿富汗</li>
+			 </ul>
+			 </div>
+			 </div>
+		 </div>
+	  </div>
+   </div>
+   
+   <!--内容结束-->
+   <!--底部开始-->
+   <div class="buttom container-fluid">
+	 <div class="">
+       <ul class="buttom_a">
+	       <li><h5>中国领先的自由行服务平台</h5></li>  
+		   <li><h6>颠覆全球200多个国家和地区</h6></li>
+		   <li><h6>100,000,000位旅行者</h6></li>
+		   <li><h6>920,000家国际酒店</h6></li>
+		   <li><h6>21,000,000条真实点评</h6></li>
+		   <li><h6>382,000,000次攻略下载</h6></li>
+		   <li><h6>中国旅游行业第一部"玩法"</h6></li>
+	   </ul>
+       <ul class="buttom_a" >
+	      <li><h5>关于我们</h5></li> 
+		   <li><h6>关于蚂蜂窝</h6></li>
+		   <li><h6>网络信息侵权通知指引</h6></li>
+		   <li><h6>隐私政策</h6></li>
+		   <li><h6>服务协议</h6></li>
+		   <li><h6>联系我们</h6></li>
+		   <li><h6>加入蚂蜂窝</h6></li>
+	   </ul>
+       <ul class="buttom_b">
+	       <li><h5>旅游服务</h5></li> 
+		   <li><h6>旅游攻略</h6></li>
+		   <li><h6>旅游特价</h6></li>
+		   <li><h6>旅游问答</h6></li>
+		   <li><h6>旅游指南</h6></li>
+		   <li><h6>旅游咨询</h6></li>
+		   <li><h6>全球供应商入驻</h6></li>
+	   </ul>
+	     <ul class="buttom_c" >
+		   <li><h6>酒店预订</h6></li>
+		   <li><h6>国际租车</h6></li>
+		   <li><h6>旅游保险</h6></li>
+		   <li><h6>订火车票</h6></li>
+		   <li><h6>APP下载</h6></li>
+	   </ul>
+	    <div class="buttom_d">
+		  <div class="row">
+		    <div class="col-xs-6">
+		      <img src="imag/buttom.jpg" class="img-responsive"/>
+			  <small>马蜂窝自由行</small><br/><small>官方订阅号</small>
+		    </div>
+		    <div class="col-xs-6">
+		      <img src="imag/buttom_a.jpg" class="img-responsive"/>
+			  <small>马蜂窝良品</small><br/><small>官方服务号</small>
+		    </div>
+		  </div>
+	    </div>
+	  </div>
+	 </div>
+	  
+	 <div class="buttom_j container-fulid "> 
+	    <div class="buttom_l">
+	      <h5>关注我们</h5>
+		  <img src="imag/buttom_icon.jpg"/>
+		  <img src="imag/buttom_i.jpg" />
+		  <img src="imag/buttom_c.jpg"/>
+	    </div>
+	    <div class="buttom_k">
+	       <hr/>
+	       <h6>马可波罗  onlylady女人志  艺龙旅游指南  欣欣旅游网  户外运动  365音乐网  爱问共享资料  旅游网  小说网  学习啦  游多多自助游  教育  火车时刻表  驴妈妈旅游网</h6>
+	       <h6>好豆美食网  二手车  绿野户外  途牛旅游网  图吧  SUV联合越野  手机浏览器  上海地图  天气预报查询  同程旅游  火车票  携程旅游  锦江旅游  火车时刻表  TripAdvisor</h6>
+	       <h6>天巡网  自在客  租租车  五分钟旅游网  酒店预订  爱旅行网  旅游  wed114结婚网  车讯网  遨游旅游网  手机  更多友情链接>></h6>
+	       <hr/>
+		</div>
+     </div>
+
+<div class="bottom container-fuild">
+  <div class="bott_a">
+	 <div class="col-xs-2" >
+	    <img src="imag/bott_a.jpg">
+	 </div>
+	 <div class="col-xs-6" >
+	    <h6>@ 2017 Mafengwo.cn 京ICP备 11015476号 京公网安备 11O105013401号 京ICP证110318号 </h6>
+	    <h6>营业执照 新出网证(京)字242号 全国统一客服电话 : 4006-345-678 网站地图</h6>
+	 </div>
+	 <div class="col-xs-4" >
+	   <img src="imag/bott_b.jpg">
+	   <img src="imag/bott_c.jpg">
+	   <img src="imag/bott_d.jpg">
+	 </div>
+   </div>
+</div>   
+   <!--底部结束-->
+  </body>
+</html>
+
+ 

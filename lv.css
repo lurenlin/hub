@@ -1,0 +1,318 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+/*导航开始*/
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+	}
+.nav_a{
+    padding:0.5em 0em 0.5em 0em;
+}
+.logo{
+    margin-top:-0.5em;
+}
+.nav{
+    margin-left:2em;
+} 
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #ffffff;
+	background-color:orange;
+}
+.nav_right{
+   float:right;
+   padding:0.5em 5em 0.5em 0em;
+}
+.nav_right>a{
+   color:orange;
+}
+.nav_right>img{
+   display:inline;
+}
+/*导航结束*/
+
+/*内容开始*/
+.c{
+  margin-top:6em;
+}
+.zy{
+  color:orange;
+}
+.ty>img{
+  display:inline;
+}
+.ty>p{
+  display:inline;
+  margin-left:0.5em;
+}
+.gl{
+  color:gray;
+  margin-left:23em;
+}
+.data{
+  color:gray;
+  margin-left:1em;
+}
+.read{
+  color:gray;
+  margin-left:4em;
+}
+.kk{
+  border:1px solid lightgray;
+  margin-top:2em;
+}
+.img{
+  margin-top:1em;
+}
+h5{
+  display:inline;
+  margin-top:2em;
+}
+.cen{
+  padding-top:1.2em;
+}
+.renzheng{
+  display:inline;
+}
+.zx{
+  color:gray;
+  margin-top:-1.5em;
+  margin-left:2em;
+}
+.lianxi{
+  display:inline;
+  margin-top: 2em;
+}
+.xx{
+  display:inline;
+  float:right;
+  margin-top: -8.5em;
+  padding-top:1em;
+  padding-bottom:1em;
+}
+.guanjia{
+ margin-left:-0.5em;
+ margin-top:1em;
+}
+.butt{
+  height:2em;
+  background-color:#F5F5F5;
+}
+.icon{
+  display:inline;
+}
+.duanluo{
+  margin-top:2em;
+}
+.fuhao{
+  font-size:4em;
+  color:orange;
+  display: inline;
+}
+.fuhao{
+  display:inline;
+}
+.duan{
+  display:inline;
+  line-height: 2em;
+}
+.yi{
+  margin-top:1em;
+}
+.yun{
+  color:#5A5A5A;
+  margin-top:2em;
+  line-height: 2em;
+}
+.jing{
+  color:#5A5A5A;
+  margin-top:2em;
+  line-height:2em;
+}
+.img_e{
+  margin-top:1em;
+}
+.chun{
+  border:1px solid lightgray;
+  margin-top:2em;
+  margin-bottom:2em;
+}
+.chun_h{
+  padding:1em 1em 1em 1em;
+}
+.chun_p{
+  padding-top:2em;
+}
+.chun_p>small{
+  color:#5A5A5A;
+}
+.zuihou{
+  color:#5A5A5A;
+  padding-bottom:1em;
+}
+.muzi{
+  color:orange;
+}
+.zui{
+  margin-top:2em;
+  width:55em;
+}
+.right{
+  width:22em;
+  border:1px solid lightgray;
+  height:7em;
+  margin-left:2em;
+  margin-top:3em;
+}
+.shoucang>img{
+  display:inline;
+  margin-left:1em;
+}
+.shoucang>p{
+  display:inline;
+}
+.fenxiang>img{
+  display:inline;
+  margin-top:2em;
+  margin-left: 2.5em;
+}
+.fenxiang>p{
+  display:inline;
+  margin-top:2.7em;
+  margin-left: 0.8em;
+  position: absolute;
+}
+.shoucang{
+  display:inline;
+  margin-top:2em;
+  position: absolute;
+}
+.fenxiang{
+  display:inline;
+  float:right;
+  margin-right: 2em;
+  border-left: 1px solid lightgray;
+  height: 7em;
+  width: 9em;
+  }
+.right_bottom{
+  margin-left:2em;
+  margin-top:2.5em;
+}
+.righ{
+  height:300em;
+  width:1px;
+  background-color:lightgray;
+}
+.righ_li{
+  position: absolute;
+  float: right;
+  margin-left:0.8em;
+  margin-top:-300em;
+}
+.li_p{
+  margin-top:1.5em;
+  color:gray;
+}
+.sm{
+  color:orange;
+  float:right;
+  margin-top:-2.6em;
+  margin-right:2em;
+}
+.gengduo{
+  margin-top:2em;
+}
+.lijiang{
+  margin-top:1em;
+}
+.geng{
+  margin-top:2em;
+  padding-bottom:9em;
+  
+}
+/*内容结束*/
+
+/*底部开始*/
+.buttom{
+  background-color:#373737;
+}
+.buttom_a{
+  list-style:none;
+  float:left;
+  color:lightgray;
+  margin-top:3em;
+  margin-left:12em;
+}
+.buttom_b{
+  list-style:none;
+  float:left;
+  color:lightgray;
+  margin-top:3em;
+}
+.buttom_b>li>h5{
+  margin-left:12em;
+}
+.buttom_b>li>h6{
+  margin-left:10em;
+}
+.buttom_c{
+  list-style:none;
+  float:left;
+  color:lightgray;
+  margin-top:4.8em;
+}
+.buttom_d{
+  list-style:none;
+  float:left;
+  color:lightgray;
+  margin-top:3em;
+  margin-left:12em;
+  width: 20em;
+}
+.buttom_g{
+  float:right;
+}
+.buttom_j{
+  background-color:#373737;
+  margin-top: -2em;
+  padding-bottom: 2em;
+}
+.buttom_l{
+  color:lightgray;
+  margin-top:2em;
+  text-align:center;
+  margin-bottom:5em;
+}
+.buttom_k{
+  color:lightgray;
+  margin-top:2em;
+  width:80%;
+  margin-left:12em;
+}
+.buttom_k>h6{
+  line-height:2em;
+}
+.bottom{
+  height:10em;
+  background-color:#373737;
+  padding-top:1em;
+}
+.bott_a{
+  color:lightgray;
+  margin-top:2em;
+  margin-left:12em;
+  margin-bottom:2em;
+}
+/*底部结束*/
+
